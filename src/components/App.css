@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-intro {
+  font-size: large;
+}
+
+.pokeball {
+  height: 75px;
+  animation: pokeball-spin infinite 20s linear;
+}
+
+@keyframes pokeball-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
